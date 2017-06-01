@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="C:/Users/Andrew/Documents/Minecraft/Bukkit/Bukkit - Builds/bukkit-1.5.1-R0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Andrew/Documents/Minecraft/Bukkit/Plugins - Used for development/Essentials/Essentials.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Andrew/Documents/Minecraft/Bukkit/Plugins - Used for development/Factions/Factions.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Andrew/Documents/Minecraft/Bukkit/Plugins - Used for development/Vault/Vault.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Andrew/Documents/Minecraft/Bukkit/CraftBukkit - Builds/craftbukkit-1.5.1-R0.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

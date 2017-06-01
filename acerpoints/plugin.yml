@@ -1,0 +1,27 @@
+name: AcerPoints
+main: com.acercraft.acerpoints.AcerPoints
+version: 1.0
+
+depend: [mcMMO]
+
+commands:
+  acerpoints:
+    description: Basic alias for AcerPoints commands.
+  ap:
+    description: Secondary alias for AcerPoints commands.
+    
+permissions:
+  acerpoints.sub:
+    default: op
+  acerpoints.give:
+    default: op
+  acerpoints.check:
+    default: true
+  acerpoints.spend:
+    default: true
+  acerpoints.check.others:
+    default: op
+  acerpoints.top:
+    default: true
+  acerpoints.redeem:
+    default: false

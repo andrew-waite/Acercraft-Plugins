@@ -1,0 +1,27 @@
+# How long after fighting is a player considered in combat (seconds)
+combatTime: 3
+
+prefix: "&7[AcerCombat] "
+
+combatMessage: "&5You are now in combat!"
+
+outOfCombatMessage: "&5You are no longer in combat!"
+
+teleportBlockedMessage: "&5You cannot teleport while in combat!"
+
+leaverBan:
+  enabled: true
+  # Length in minutes
+  length: 10
+  reason: "&5You have been temporarily banned for logging off during combat"
+  broadcast:
+    enabled: true
+    message: "&5{name} has logged off during combat and has been banned!"
+
+dropItemsOnLeave: true
+
+dropArmorOnLeave: true
+
+dropExpOnLeave: true
+
+killPlayersOnLeave: true

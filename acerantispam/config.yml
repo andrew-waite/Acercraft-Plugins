@@ -1,0 +1,63 @@
+#BlizzardSpamBlock Config
+Prefix: '&6[BSpamBlock] '
+
+Message_Cooldown:
+  Enabled: true
+#Timelimit between each message (in milliseconds 1 second = 1000 milliseconds)
+  Message_cooldown_time: 500
+#Should players who continuously attempt to exceed message cooldown time be muted?
+  Mute: true
+#How many times will a player attempt to exceed message cooldown time before they are muted?
+  Chances: 3
+#How long will a user be muted for (in seconds)?
+  Mute_time: 300
+
+Command_Cooldown:
+  Enabled: true
+#Timelimit between each command (in milliseconds seconds 1 second = 1000 milliseconds)
+  Command_cooldown_time: 500
+#Should players who continuously attempt to exceed command cooldown time be muted?
+  Mute: true
+#How many times will a player attempt to exceed command cooldown time before they are muted?
+  Chances: 3
+#How long will a user be muted for (in seconds)?
+  Mute_time: 300
+Caps_Lock:
+  Enabled: true
+#The percentage of capital letters allowed in one messge
+  Allowed_caps_percent: 30
+#Count special characters as uppercase (special characters: !,@,#,$,%,^,&,*,etc...)? 
+  Special_characters_as_uppercase: true
+#Skip cap check for messages shorter than x letters
+  Skip_cap_check: 5
+Message_repetition:
+  Enabled: true
+#How many times should a player be allowed to say the same message, till they are blocked from doing so?
+#This only applies the last message from the user.
+#1 would mean after 1 REPEAT, meaning the same message was sent twice"
+  Block_after: 1
+#If the messages are shorter than this amount of letters, it will skip the message repetition check (Setting the value at 0, skips the check.).
+  Skip_check: 5
+#How much percentage of the new message must be different from the previous message?
+#Setting the value to 50% would work like this:
+# Player: Hi, can I have free diamonds?           #Displayed, as it's the first message
+# Player: Hi, can I have free diamonds?!          #Blocked, as more 50% of the message is still the same
+# Player: Hi, can I have free diamonds?!?         #Blocked, as more 50% of the message is still the same
+# Player: Hi, can I get OP?                       #Displayed, as more 50% of the message is different
+  Percentage_difference: 50
+  
+Messages:
+  NoPerms: "You do not have permission to do this!"
+  TooManyCaps: "Too many capitals!"
+  TooManyReps: "Do not send the same message repeatedly!"
+  MessageSpam: "Do not spam!"
+  CmdSpam: "Do not spam!"
+  MutedForCmds: "Do not spam! You have been muted"
+  MutedForChat: "Do not spam! You have been muted"
+  Muted: "You are muted!"
+  NoLongerMuted: "You are no longer muted!"
+  NotMuted: "That player is not muted!"
+  Reloaded: "Config reloaded!"
+  Unknown: "Unknown command!"
+  PlayerOff: "That player is not online!"
+  

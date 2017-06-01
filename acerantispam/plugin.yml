@@ -1,0 +1,13 @@
+name: AcerAntiSpam
+main: com.acercraft.AcerAntiSpam.AcerAntiSpam
+version: 1.0
+
+commands:
+  aspam:
+    description: Alias for AcerAntiSpam
+    
+permissions:
+  aspam.unmute:
+    default: op
+  aspam.reload:
+    default: op

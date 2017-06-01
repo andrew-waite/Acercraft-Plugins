@@ -1,0 +1,10 @@
+name: AcerOthers
+main: com.acercraft.acerothers.AcerOthers
+version: 1.0
+author: [Drew1080]
+commands:
+    acerresident:
+        description: Command for AcerResident's
+        aliases: acerres
+    acerothers:
+        description: reload config

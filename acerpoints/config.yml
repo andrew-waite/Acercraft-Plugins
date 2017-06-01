@@ -1,0 +1,6 @@
+  # Name_of_group: amount to get
+  # Name is also what players type
+  # Permission required is acerpoints.redeem.<group_name>
+  # GROUP NAMES MUST BE ALL LOWER CASE!!!!!!!!
+Groups:
+  blah: 500

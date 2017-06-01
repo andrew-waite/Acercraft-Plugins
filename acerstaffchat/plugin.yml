@@ -1,0 +1,6 @@
+name: AcerStaffChat
+main: com.acercraft.AcerStaffChat.AcerStaffChat
+version: 0.1
+commands:
+    staffchat:
+        description: StaffChat command for acercraft staff

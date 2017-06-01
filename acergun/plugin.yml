@@ -1,0 +1,11 @@
+name: AcerGuns
+main: com.acercraft.AcerGun.main
+version: 0.2
+commands: 
+  acergun:
+    description:
+    usage:
+permissions:
+  acergun:
+    description: Used for guns
+    default: op

@@ -1,0 +1,10 @@
+name: AcerTag
+main: com.acercraft.AcerTag.AcerTag
+version: 1.0
+depend: [Vault]
+commands:
+    acertag:
+        description: Allows you to change your prefix or suffix
+        usage: /<command> [Prefix|Suffix] [TAG]
+    acernick:
+        description: Allows players to change there nickname

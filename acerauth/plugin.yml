@@ -1,0 +1,10 @@
+name: AcerAuth
+main: com.acercraft.AcerAuth.AcerAuth
+version: 0.1
+commands:
+    login:
+        description: Allows admins to login
+    register:
+        description: Allows admins to register there accounts
+    acerauth:
+        description: base command for acerauth

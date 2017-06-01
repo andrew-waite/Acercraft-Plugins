@@ -1,0 +1,18 @@
+#The enderpearl cooldown is in seconds
+enderpearl_cooldown: 15
+
+#put the commands in the list then the cooldown time directly afterwards. Eg the example below will check for the command /me and the 25 is the number of seconds until
+#they can use the command again
+commands:
+  - me25
+  - msg3
+  - f3
+  - warp10
+  - home10
+  - tell5
+  - whisper3
+  
+player-bars:
+    hide-delay-seconds: 5
+    display-style: 6
+    below-name-text: ' &aHP'

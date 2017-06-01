@@ -1,0 +1,69 @@
+name: ACPAdmin
+main: com.acercraft.ACPAdmin.ACPAdmin
+version: 1.0
+commands:
+    ban:
+        description: Bans a player
+    tempban:
+        description: temp bans a player
+    history:
+        description: Checks a users history
+    warn:
+        description: Warns a player
+    mute:
+        description: Mutes a player
+    unban: 
+        description: Unbans a player
+    modreq:
+        description: Request a mod command
+        usage: /modreq <message>
+        permission: nexusadmin.request
+    check:
+        description: Returns a list of requests
+        usage: /check <pagenumber>
+        permission: nexusadmin.check
+    tp-id:
+        description: Teleports you to the location of the request.
+        usage: /tp-id <id>
+        permission: nexusadmin.tp-id
+    claim:
+        description: let a player claim a id
+        usage: /claim <id>
+        permission: nexusadmin.claim
+    re-open:
+        description: re-opens a ticked
+        usage: /re-open <id>
+        permission: nexusadmin.reopen
+    done:
+        description: close a ticked
+        usage: /done <id>
+        permission: nexusadmin.close
+    status:
+        description: checks the status of a ticked
+        usage: /status
+        permission: nexusadmin.status
+    hold:
+        description: puts a ticket on hold
+        usage: /hold <id>
+        permission: nexusadmin.hold
+permissions:
+    nexusadmin.check:
+        description: allows a person to to /check
+        default: FALSE
+    nexusadmin.tp-id:
+        description: allows a person to use /tp-id
+        default: FALSE
+    nexusadmin.claim: 
+        description: allows a person to claim a ticked
+        default: FALSE
+    nexusadmin.request:
+        description: allows a person to submit a ticked
+        default: TRUE
+    nexusadmin.close:
+        description: allows a person to close a ticked
+        default: FALSE
+    nexusadmin.reopen:
+        description: allows a person to re-open a ticked
+        default: FALSE
+    nexusadmin.status:
+        default: TRUE

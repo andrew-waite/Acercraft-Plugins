@@ -1,0 +1,8 @@
+#The prefix for all messages
+prefix: '&a[&1AcerCraft&a] '
+
+#The %timeleft% will be replaces with the time left, until you can use an enderpeal again
+Enderpearl_fail: 'You have to wait %timeleft% second(s) to use an enderpearl again'
+
+#The %timeleft% will be replaced with how long the user has untill they can use the command again
+CommandCooldownError: 'You can use this command for another %timeleft% seconds'

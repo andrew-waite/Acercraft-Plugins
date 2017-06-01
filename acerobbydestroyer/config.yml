@@ -1,0 +1,18 @@
+Version: '2.4'
+Radius: 3
+FluidsProtect: true
+EnabledFor:
+  TNT: true
+  Cannons: false
+  Creepers: false
+  Ghasts: false
+Durability:
+  Enabled: false
+  Amount: 1
+  ResetEnabled: true
+  ResetAfter: '600000'
+EnchantmentTableDurability:
+  Enabled: false
+  Amount: 1
+Blocks:
+  ChanceToDrop: 0.7

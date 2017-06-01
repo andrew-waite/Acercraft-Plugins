@@ -1,0 +1,26 @@
+name: AcerPerks
+main: com.acercraft.AcerPerks
+version: 0.1
+Author: Drew1080
+commands:
+    ti:
+        description: toggle inventory
+        aliases: [togglei]
+        usage: |
+            /<command> [0-n]
+            Example: /<command> - toggle inventory like a ring
+            Example: /<command> 1 - toggle inventory index 1
+            Example: /it 1 - toggle inventory (reverse)
+            Advanced: /ti [enable|disable|e|d] gamemode
+            Advanced: /ti enable gamemode - enable with gamemode
+    it:
+        description: toggle inventory (reverse)
+        aliases: [toggler]
+    acerheal:
+        description: Heal's the player with 20 minute cooldown
+    acerfeed:
+        description: Fully replenishes a players food level with 20 minute cooldown
+    acerspeed:
+        description: Addes speed 3 potion effect to player with 15 minute cooldown
+    acerstrength: 
+        description: Addes Strength 2 and Regen 2 potion effect to player for 30 seconds with 20 minute cooldown

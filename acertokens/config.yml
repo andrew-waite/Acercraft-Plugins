@@ -1,0 +1,13 @@
+1:
+  Name: Default Package
+  Description: Default package, purchase broadcasts a message
+  Cost: 100
+  Commands:
+    - say Default Package has been purchased by {name}!
+Mobs:
+  Cow:
+    Amounts: "5,10,15,20,25,30"
+    Chance: .25
+  Chicken:
+    Amounts: "5,10,15"
+    Chance: .30

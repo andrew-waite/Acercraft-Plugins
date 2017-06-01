@@ -1,0 +1,7 @@
+name: AcerPlot
+main: com.acercraft.AcerPlots.AcerPlots
+version: 1.0
+depend: [WorldGuard]
+commands:
+    plot:
+        description: Add or delete a user from your plot

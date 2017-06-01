@@ -1,0 +1,25 @@
+#The prefix that will be applied to all messages
+Message_Prefix: '&6[AcerCraft]'
+
+#words that players cannot use in a suffix/prefix/nickname
+Blacklist:
+    - Mineacer
+    - AussieAndy
+    - Moushell
+    - Drew1080
+    - MLG_Guns982
+    - Dead_Night398
+
+#The rules for nicknames are listed below
+NickNameRules:
+    LineOne: 'Rule 1'
+    LineTwo: 'Rule 2'
+    LineThree: 'Rule3'
+    LineFour: 'Rule4'
+
+#Below is the minimum number of characters allow in a nickname
+MinimumNickNameLength: 4
+
+#Below is the maximum number of characters allowed in a nickname
+MaximumNickNameLength: 10
+    

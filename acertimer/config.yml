@@ -1,0 +1,14 @@
+# Prefix
+Prefix: "&6[&aAcer&bCraft&6]"
+
+# Rejoin during timer message
+RejoinMessage: You have rejoined but your PVP safety timer has picked up where it left off!
+
+# Protection time in seconds
+Time: 60
+
+# Can't hit this player message
+ProtectedMessage: This player is protected from PVP for a short time!
+
+# Can't hit while protected message
+UnderProtectionMessage: You can't PVP while under protection! Use /acertime remove

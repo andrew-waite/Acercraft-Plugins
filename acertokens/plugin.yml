@@ -1,0 +1,33 @@
+name: AcerTokens
+main: com.acercraft.acertokens.AcerTokens
+version: 1.0
+
+commands:
+  acertokens:
+    description: Basic alias for AcerTokens
+  atokens:
+    description: Secondary alias for AcerTokens
+  at:
+    description: Third alias
+    
+permissions:
+  acertokens.give:
+    default: op
+  acertokens.remove:
+    default: op
+  acertokens.balance.others:
+    default: op
+  acertokens.balance:
+    default: true
+  acertokens.list:
+    default: true
+  acertokens.info:
+    default: true
+  acertokens.buy:
+    default: true
+  acertokens.reload:
+    default: op
+  acertokens.top:
+    default: true
+  acertokens.lookup:
+    default: op

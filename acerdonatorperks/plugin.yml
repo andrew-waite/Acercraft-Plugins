@@ -1,0 +1,54 @@
+main: com.acercraft.acerdonatorperks.Main
+name: AcerDonatorPerks
+version: 1.5
+description: Donator perks for Acercraft
+commands:
+    CrazyFire:
+        description: Walk on fire!
+        permission: CrazyFeet.crazyfire
+    CrazySmoke:
+        description: Walk on smoke!
+        permission: CrazyFeet.crazysmoke
+    CrazyMagic:
+        description: Walk on magic dust!
+        permission: CrazyFeet.crazymagic
+    CrazyPearl:
+        description: Walk on pearls!
+        permission: CrazyFeet.crazypearl
+    CrazyDisable:
+        description: Disable all CrazyModes!
+    CrazyCheck:
+        description: Check enabled CrazyFeet modes!
+    CrazyFeet:
+        description: CrazyFeet menu!
+        aliases: crazyhelp
+    CrazyAutoFire:
+        description: Automatic CrazyFire on join!
+        permission: CrazyFeet.crazyfire.autofire
+        aliases: crazyautof
+    CrazyAutoSmoke:
+        description: Automatic CrazySmoke on join!
+        permission: CrazyFeet.crazysmoke.autosmoke
+        aliases: crazyautos
+    CrazyAutoPearl:
+        description: Automatic CrazyPearl on join!
+        permission: CrazyFeet.crazypearl.autopearl
+        aliases: crazyautop
+    CrazyAutoMagic:
+        description: Automatic CrazyMagic on join!
+        permission: CrazyFeet.crazymagic.automagic
+        aliases: crazyautom
+    CrazyAutoCheck:
+        description: Check enabled automatic CrazyFeet modes!
+    CrazyAutoDisable:
+        description: Disable all automatic CrazyFeet modes!
+    furnace:
+        description: Opens a virtual furnace
+    workbench:
+        description: Opens a virtual workbench
+    acernear:
+        description: Gets the players around you
+    climb:
+        description: All things WallClimber.
+    anvil:
+        description: Opens a virtual anvil

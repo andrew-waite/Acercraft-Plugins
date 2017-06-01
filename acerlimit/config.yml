@@ -1,0 +1,8 @@
+# The radius checked around where the mob spawner is placed
+radius: 15
+
+# The number of mob spawners allowed to be in the area
+spawners: 5
+
+# The number of entities allowed in the area
+entities: 50

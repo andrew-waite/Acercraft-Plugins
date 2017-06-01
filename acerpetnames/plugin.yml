@@ -1,0 +1,7 @@
+name: AcerPetNames
+version: 1.0.0
+description: Name your pets.
+main: com.acercraft.acerpetnames.Main
+commands:
+  acerpetname:
+    description: Set your pet's name!

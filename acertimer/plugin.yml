@@ -1,0 +1,7 @@
+name: AcerTimer
+main: com.acercraft.AcerTimer.AcerTimer
+version: 1.0
+
+commands:
+  acertimer:
+    description: Basic alias for AcerTimer

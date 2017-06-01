@@ -1,0 +1,15 @@
+name: AcerToggleChat
+main: com.acercraft.AcerToggleChat.AcerToggleChat
+version: 1.0
+
+commands:
+  togglechat:
+    description: Basic alias for AcerToggleChat
+  tc:
+    description: Secondary alias for AcerToggleChat
+    
+permissions:
+  togglechat.list:
+    default: op
+  togglechat.others:
+    default: op

@@ -1,0 +1,11 @@
+name: AcerMOTD
+main: com.acercraft.AcerMOTD.AcerMOTD
+version: 1.0
+
+commands:
+  acermotd:
+    description: Reloads the messages in config.yml for AcerMOTD
+    
+permissions:
+  acermotd.reload:
+    default: op

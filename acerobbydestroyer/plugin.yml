@@ -1,0 +1,9 @@
+name: AcerObbyDestroyer
+version: 0.1
+author: Drew1080
+main: me.drew1080.acerobbydestroyer.AcerObbyDestroyer
+commands:
+    acerobbydestroyer:
+        description: AcerObbyDestroyer base command
+        usage: |
+               /<command>

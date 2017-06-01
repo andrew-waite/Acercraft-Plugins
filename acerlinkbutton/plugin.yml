@@ -1,0 +1,7 @@
+name: AcerLinkButton
+main: me.drew1080.acerlinkbutton.AcerLinkButton
+version: 1.0
+Author: Drew1080
+commands:
+    acerlb:
+        description: Makes a button show text
